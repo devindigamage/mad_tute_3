@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
         final int number2 = intent.getIntExtra(FirstActivity.EXTRA_NUMBER2,0);
 
         final EditText textView1 = (EditText) findViewById(R.id.editTextTextPersonName3);
-        final EditText textView2 = (EditText) findViewById(R.id.editTextTextPersonName4);
+        final EditText textView2 = (EditText) findViewById(R.id.editText4);
 
         Button add = (Button) findViewById(R.id.button2);
         Button subtract = (Button) findViewById(R.id.button3);
